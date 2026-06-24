@@ -2,11 +2,11 @@ class Curso:
     
     def __init__(self, nome, email, telefone, id, desconto):
         
-        self.nome= nome
-        self.email= email
-        self.telefone = telefone
-        self.id = id
-        self.desconto = desconto
+        self._nome= nome
+        self._email= email
+        self._telefone = telefone
+        self._id = id
+        self._desconto = desconto
     
     
     @property
